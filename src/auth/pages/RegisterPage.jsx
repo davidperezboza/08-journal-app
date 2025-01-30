@@ -1,9 +1,17 @@
 import { Link as RouterLink } from 'react-router-dom';
-import { Google } from '@mui/icons-material';
 import { Button, Grid, Link, TextField, Typography } from '@mui/material';
 import { AuthLayout } from '../layout/';
+import { useForm } from '../../hooks/useForm';
+
+const formData = {
+  email: 'fernando@google.com',
+  password: '12456',
+  name: 'Fernando Herrera',
+};
 
 export const RegisterPage = () => {
+  const {name, email, password, onInputChange, formState} = useForm(formData);
+
   return (
     <AuthLayout title='Registro'>
       <form>
@@ -11,14 +19,22 @@ export const RegisterPage = () => {
           <Grid item xs={12} sx={{ mt: 2 }}>
             <TextField 
               label='Nombre' 
-              type='email' 
-              placeholder='correo@google.com'
-              fullWidth />
+              type='text' 
+              placeholder='Nombre'
+              name='name'
+              value={name}
+              onChange={onInputChange}
+              fullWidth 
+              error = {false}
+              helperText={null}/>
           </Grid>
           <Grid item xs={12} sx={{ mt: 2 }}>
             <TextField 
               label='Correo' 
               type='email' 
+              name='email'
+              value={email}
+              onChange={onInputChange}
               placeholder='correo@google.com'
               fullWidth />
           </Grid>
@@ -26,6 +42,9 @@ export const RegisterPage = () => {
             <TextField 
               label='Contraseña' 
               type='password' 
+              name='password'
+              value={password}
+              onChange={onInputChange}
               placeholder='Contraseña'
               fullWidth />
           </Grid>
