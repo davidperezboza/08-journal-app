@@ -1,12 +1,14 @@
+import { useState } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import { Button, Grid, Link, TextField, Typography } from '@mui/material';
 import { AuthLayout } from '../layout/';
 import { useForm } from '../../hooks/useForm';
 
+
 const formData = {
-  email: 'fernando@google.com',
-  password: '12456',
-  name: 'Fernando Herrera',
+  email: '',
+  password: '',
+  name: '',
 };
 
 const formValidations = {
@@ -16,20 +18,22 @@ const formValidations = {
 };
 
 export const RegisterPage = () => {
+  const [formSubmited, setFormSubmited] = useState(false);
+
   const {
     formState, name, email, password, onInputChange, 
     isFormValid, nameValid, emailValid, passwordValid
   } = useForm(formData, formValidations);
 
-  console.log(nameValid);
-  
   const onSubmit = (event) => {
     event.preventDefault();
+    setFormSubmited(true);
+    if(!isFormValid) return;
     console.log(formState);
   };
 
   return (
-    <AuthLayout title='Registro'>
+    <AuthLayout title='Crear cuenta'>
       <form onSubmit={onSubmit}>
         <Grid container>
           <Grid item xs={12} sx={{ mt: 2 }}>
@@ -40,6 +44,8 @@ export const RegisterPage = () => {
               name='name'
               value={name}
               onChange={onInputChange}
+              error={!!nameValid && formSubmited}
+              helperText={nameValid}
               fullWidth />
           </Grid>
           <Grid item xs={12} sx={{ mt: 2 }}>
@@ -50,6 +56,8 @@ export const RegisterPage = () => {
               value={email}
               onChange={onInputChange}
               placeholder='correo@google.com'
+              error={!!emailValid && formSubmited}
+              helperText={emailValid}
               fullWidth />
           </Grid>
           <Grid item xs={12} sx={{ mt: 2 }}>
@@ -60,6 +68,8 @@ export const RegisterPage = () => {
               value={password}
               onChange={onInputChange}
               placeholder='Contraseña'
+              error={!!passwordValid && formSubmited}
+              helperText={passwordValid}
               fullWidth />
           </Grid>
         </Grid>
