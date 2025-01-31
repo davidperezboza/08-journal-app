@@ -12,9 +12,14 @@ const formData = {
 export const RegisterPage = () => {
   const {name, email, password, onInputChange, formState} = useForm(formData);
 
+  const onSubmit = (event) => {
+    event.preventDefault();
+    console.log(formState);
+  };
+
   return (
     <AuthLayout title='Registro'>
-      <form>
+      <form onSubmit={onSubmit}>
         <Grid container>
           <Grid item xs={12} sx={{ mt: 2 }}>
             <TextField 
@@ -24,9 +29,7 @@ export const RegisterPage = () => {
               name='name'
               value={name}
               onChange={onInputChange}
-              fullWidth 
-              error = {false}
-              helperText={null}/>
+              fullWidth />
           </Grid>
           <Grid item xs={12} sx={{ mt: 2 }}>
             <TextField 
@@ -51,7 +54,7 @@ export const RegisterPage = () => {
         </Grid>
         <Grid container spacing={2} sx={{ mb: 2, mt: 1 }}>
           <Grid item xs={12} sm={6}> 
-            <Button variant='contained' fullWidth>
+            <Button variant='contained' fullWidth type='submit'>
               Crear cuenta
             </Button>
           </Grid>
