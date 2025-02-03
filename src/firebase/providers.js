@@ -40,7 +40,6 @@ export const registerUserWithEmailPassword = async({email, password, name}) => {
             photoURL,
         };
     } catch (error) {
-        console.log('entra en el catch');
         const errorMessage = error.message;
         return {
             ok: false,
