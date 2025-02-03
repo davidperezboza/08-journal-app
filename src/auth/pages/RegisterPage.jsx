@@ -1,8 +1,10 @@
 import { useState } from 'react';
+import { useDispatch } from 'react-redux';
 import { Link as RouterLink } from 'react-router-dom';
 import { Button, Grid, Link, TextField, Typography } from '@mui/material';
 import { AuthLayout } from '../layout/';
 import { useForm } from '../../hooks/useForm';
+import { startCreatingUserWithEamilPassword } from '../../store/auth';
 
 
 const formData = {
@@ -18,6 +20,7 @@ const formValidations = {
 };
 
 export const RegisterPage = () => {
+  const dispatch = useDispatch();
   const [formSubmited, setFormSubmited] = useState(false);
 
   const {
@@ -29,7 +32,7 @@ export const RegisterPage = () => {
     event.preventDefault();
     setFormSubmited(true);
     if(!isFormValid) return;
-    console.log(formState);
+    dispatch(startCreatingUserWithEamilPassword(formState));
   };
 
   return (
