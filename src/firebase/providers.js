@@ -1,4 +1,4 @@
-import { createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, updateProfile } from "firebase/auth";
 import { FirebaseAuth } from "./config";
 
 const googleProvider = new GoogleAuthProvider();
@@ -28,19 +28,19 @@ export const signInWithGoogle = async() => {
 export const registerUserWithEmailPassword = async({email, password, name}) => {
     try {
         const resp = await createUserWithEmailAndPassword(FirebaseAuth, email, password);
-        const {uid, photoURL} = resp.user;
-        console.log(resp);
+        const {uid, photoURL} = resp.user;      
         //TODO: Actualizar el Name en Firebase
+        await updateProfile(FirebaseAuth.currentUser, {
+            displayName: name,
+        });
+
         return {
             ok: true,
             uid,
             photoURL,
-            email,
-            password,
-            name,
         };
     } catch (error) {
-        console.log(error);
+        console.log('entra en el catch');
         const errorMessage = error.message;
         return {
             ok: false,
