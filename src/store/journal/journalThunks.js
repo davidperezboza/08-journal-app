@@ -1,44 +1,15 @@
-import { createSlice } from '@reduxjs/toolkit'
+export const startNewNote = () => {
+  return async(dispatch) => {
+    //uid del usiario
 
-export const journalSlice = createSlice({
-  name: 'journal',
-  initialState: {
-    isSaving: true,
-    messageSaved: '',
-    notes: [],
-    active: null,
-  },
-  reducers: {
-    addNewEmptyNote: (state, action) => {
+    const newNote = {
+      title: '',
+      body: '',
+      date: new Date().getTime(),
+    };
 
-    },
-
-    setActiveNote: (state, action) => {
-
-    },
-
-    setNotes: (state, action) => {
-
-    },
-
-    setSaving: (state) => {
-
-    },
-
-    updateNote: (state, action) => {
-
-    },
-
-    deleteNoteById: (state, action) => {
-
-    },
-  },
-})
-
-export const { addNewEmptyNote,
-    setActiveNote,
-    setNotes,
-    setSaving,
-    updateNote,
-    deleteNoteById,
-} = journalSlice.actions;
+    // dispatch
+    // dispacth(NewNote)
+    // dispatch(activarNote)
+  };
+};
