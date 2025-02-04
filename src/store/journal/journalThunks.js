@@ -1,15 +1,17 @@
-export const startNewNote = () => {
-  return async(dispatch) => {
-    //uid del usiario
+import { doc, collection, setDoc } from "firebase/firestore/lite";
+import { FirebaseDB } from "../../firebase";
 
+export const startNewNote = () => {
+  return async(dispatch, getState) => {
+    const {uid} = getState().auth;
     const newNote = {
       title: '',
       body: '',
       date: new Date().getTime(),
     };
 
-    // dispatch
-    // dispacth(NewNote)
-    // dispatch(activarNote)
+    const newDoc = doc(collection(FirebaseDB, `${uid}/journal/notes`));
+    await setDoc(newDoc, newNote);
+   
   };
 };
