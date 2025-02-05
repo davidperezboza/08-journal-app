@@ -1,0 +1,113 @@
+Date : 2025-02-04 23:44:48
+Directory : c:\curso de React\08-journal-app
+Total : 55 files,  1111 codes, 10 comments, 164 blanks, all 1285 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JavaScript JSX |         18 |        625 |          1 |         84 |        710 |
+| JavaScript     |         32 |        413 |          9 |         72 |        494 |
+| JSON           |          1 |         40 |          0 |          1 |         41 |
+| HTML           |          1 |         23 |          0 |          2 |         25 |
+| Markdown       |          1 |          6 |          0 |          5 |         11 |
+| CSS            |          1 |          3 |          0 |          0 |          3 |
+| XML            |          1 |          1 |          0 |          0 |          1 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                       | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                          |         55 |      1,111 |         10 |        164 |      1,285 |
+| . (Files)                                                                  |          5 |        111 |          1 |         12 |        124 |
+| public                                                                     |          1 |          1 |          0 |          0 |          1 |
+| src                                                                        |         49 |        999 |          9 |        152 |      1,160 |
+| src (Files)                                                                |          3 |         28 |          0 |          3 |         31 |
+| src\auth                                                                   |          8 |        229 |          0 |         21 |        250 |
+| src\auth (Files)                                                           |          1 |          2 |          0 |          0 |          2 |
+| src\auth\layout                                                            |          2 |         27 |          0 |          2 |         29 |
+| src\auth\pages                                                             |          3 |        188 |          0 |         17 |        205 |
+| src\auth\routes                                                            |          2 |         12 |          0 |          2 |         14 |
+| src\firebase                                                               |          3 |         79 |          8 |          8 |         95 |
+| src\helpers                                                                |          2 |         13 |          0 |          4 |         17 |
+| src\hooks                                                                  |          3 |         65 |          0 |         18 |         83 |
+| src\journal                                                                |         15 |        341 |          0 |         49 |        390 |
+| src\journal (Files)                                                        |          1 |          5 |          0 |          0 |          5 |
+| src\journal\components                                                     |          5 |        174 |          0 |         21 |        195 |
+| src\journal\layout                                                         |          2 |         19 |          0 |          5 |         24 |
+| src\journal\pages                                                          |          2 |         34 |          0 |          4 |         38 |
+| src\journal\routes                                                         |          2 |         11 |          0 |          2 |         13 |
+| src\journal\views                                                          |          3 |         98 |          0 |         17 |        115 |
+| src\router                                                                 |          1 |         21 |          0 |          7 |         28 |
+| src\store                                                                  |          8 |        175 |          0 |         37 |        212 |
+| src\store (Files)                                                          |          2 |         12 |          0 |          1 |         13 |
+| src\store\auth                                                             |          3 |         73 |          0 |         13 |         86 |
+| src\store\journal                                                          |          3 |         90 |          0 |         23 |        113 |
+| src\theme                                                                  |          3 |         28 |          1 |          3 |         32 |
+| src\ui                                                                     |          3 |         20 |          0 |          2 |         22 |
+| src\ui (Files)                                                             |          1 |          1 |          0 |          0 |          1 |
+| src\ui\components                                                          |          2 |         19 |          0 |          2 |         21 |
++----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                   | language       | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\curso de React\08-journal-app\README.md                                 | Markdown       |          6 |          0 |          5 |         11 |
+| c:\curso de React\08-journal-app\eslint.config.js                          | JavaScript     |         37 |          0 |          2 |         39 |
+| c:\curso de React\08-journal-app\index.html                                | HTML           |         23 |          0 |          2 |         25 |
+| c:\curso de React\08-journal-app\package.json                              | JSON           |         40 |          0 |          1 |         41 |
+| c:\curso de React\08-journal-app\public\vite.svg                           | XML            |          1 |          0 |          0 |          1 |
+| c:\curso de React\08-journal-app\src\JournalApp.jsx                        | JavaScript JSX |          9 |          0 |          1 |         10 |
+| c:\curso de React\08-journal-app\src\auth\index.js                         | JavaScript     |          2 |          0 |          0 |          2 |
+| c:\curso de React\08-journal-app\src\auth\layout\AuthLayout.jsx            | JavaScript JSX |         26 |          0 |          2 |         28 |
+| c:\curso de React\08-journal-app\src\auth\layout\index.js                  | JavaScript     |          1 |          0 |          0 |          1 |
+| c:\curso de React\08-journal-app\src\auth\pages\LoginPage.jsx              | JavaScript JSX |         85 |          0 |          8 |         93 |
+| c:\curso de React\08-journal-app\src\auth\pages\RegisterPage.jsx           | JavaScript JSX |        101 |          0 |          9 |        110 |
+| c:\curso de React\08-journal-app\src\auth\pages\index.js                   | JavaScript     |          2 |          0 |          0 |          2 |
+| c:\curso de React\08-journal-app\src\auth\routes\AuthRoutes.jsx            | JavaScript JSX |         11 |          0 |          2 |         13 |
+| c:\curso de React\08-journal-app\src\auth\routes\index.js                  | JavaScript     |          1 |          0 |          0 |          1 |
+| c:\curso de React\08-journal-app\src\firebase\config.js                    | JavaScript     |         14 |          5 |          2 |         21 |
+| c:\curso de React\08-journal-app\src\firebase\index.js                     | JavaScript     |          2 |          0 |          0 |          2 |
+| c:\curso de React\08-journal-app\src\firebase\providers.js                 | JavaScript     |         63 |          3 |          6 |         72 |
+| c:\curso de React\08-journal-app\src\helpers\index.js                      | JavaScript     |          1 |          0 |          0 |          1 |
+| c:\curso de React\08-journal-app\src\helpers\loadNotes.js                  | JavaScript     |         12 |          0 |          4 |         16 |
+| c:\curso de React\08-journal-app\src\hooks\index.js                        | JavaScript     |          2 |          0 |          0 |          2 |
+| c:\curso de React\08-journal-app\src\hooks\useCheckAuth.js                 | JavaScript     |         20 |          0 |          6 |         26 |
+| c:\curso de React\08-journal-app\src\hooks\useForm.js                      | JavaScript     |         43 |          0 |         12 |         55 |
+| c:\curso de React\08-journal-app\src\journal\components\ImageGallery.jsx   | JavaScript JSX |         67 |          0 |          4 |         71 |
+| c:\curso de React\08-journal-app\src\journal\components\NavBar.jsx         | JavaScript JSX |         38 |          0 |          4 |         42 |
+| c:\curso de React\08-journal-app\src\journal\components\SideBar.jsx        | JavaScript JSX |         36 |          0 |          6 |         42 |
+| c:\curso de React\08-journal-app\src\journal\components\SideBarItem.jsx    | JavaScript JSX |         29 |          0 |          7 |         36 |
+| c:\curso de React\08-journal-app\src\journal\components\index.js           | JavaScript     |          4 |          0 |          0 |          4 |
+| c:\curso de React\08-journal-app\src\journal\index.js                      | JavaScript     |          5 |          0 |          0 |          5 |
+| c:\curso de React\08-journal-app\src\journal\layout\JournalLayout.jsx      | JavaScript JSX |         18 |          0 |          5 |         23 |
+| c:\curso de React\08-journal-app\src\journal\layout\index.js               | JavaScript     |          1 |          0 |          0 |          1 |
+| c:\curso de React\08-journal-app\src\journal\pages\JournalPage.jsx         | JavaScript JSX |         33 |          0 |          4 |         37 |
+| c:\curso de React\08-journal-app\src\journal\pages\index.js                | JavaScript     |          1 |          0 |          0 |          1 |
+| c:\curso de React\08-journal-app\src\journal\routes\JournalRoutes.jsx      | JavaScript JSX |         10 |          0 |          2 |         12 |
+| c:\curso de React\08-journal-app\src\journal\routes\index.js               | JavaScript     |          1 |          0 |          0 |          1 |
+| c:\curso de React\08-journal-app\src\journal\views\NoteView.jsx            | JavaScript JSX |         75 |          0 |         14 |         89 |
+| c:\curso de React\08-journal-app\src\journal\views\NothingSelectedView.jsx | JavaScript JSX |         21 |          0 |          3 |         24 |
+| c:\curso de React\08-journal-app\src\journal\views\index.js                | JavaScript     |          2 |          0 |          0 |          2 |
+| c:\curso de React\08-journal-app\src\main.jsx                              | JavaScript JSX |         16 |          0 |          2 |         18 |
+| c:\curso de React\08-journal-app\src\router\AppRouter.jsx                  | JavaScript JSX |         21 |          0 |          7 |         28 |
+| c:\curso de React\08-journal-app\src\store\auth\authSlice.js               | JavaScript     |         34 |          0 |          4 |         38 |
+| c:\curso de React\08-journal-app\src\store\auth\index.js                   | JavaScript     |          2 |          0 |          0 |          2 |
+| c:\curso de React\08-journal-app\src\store\auth\thunks.js                  | JavaScript     |         37 |          0 |          9 |         46 |
+| c:\curso de React\08-journal-app\src\store\index.js                        | JavaScript     |          3 |          0 |          0 |          3 |
+| c:\curso de React\08-journal-app\src\store\journal\index.js                | JavaScript     |          2 |          0 |          0 |          2 |
+| c:\curso de React\08-journal-app\src\store\journal\journalSlice.js         | JavaScript     |         48 |          0 |         10 |         58 |
+| c:\curso de React\08-journal-app\src\store\journal\journalThunks.js        | JavaScript     |         40 |          0 |         13 |         53 |
+| c:\curso de React\08-journal-app\src\store\store.js                        | JavaScript     |          9 |          0 |          1 |         10 |
+| c:\curso de React\08-journal-app\src\styles.css                            | CSS            |          3 |          0 |          0 |          3 |
+| c:\curso de React\08-journal-app\src\theme\AppTheme.jsx                    | JavaScript JSX |         11 |          1 |          2 |         14 |
+| c:\curso de React\08-journal-app\src\theme\index.js                        | JavaScript     |          2 |          0 |          0 |          2 |
+| c:\curso de React\08-journal-app\src\theme\purpleTheme.js                  | JavaScript     |         15 |          0 |          1 |         16 |
+| c:\curso de React\08-journal-app\src\ui\components\CheckingAuth.jsx        | JavaScript JSX |         18 |          0 |          2 |         20 |
+| c:\curso de React\08-journal-app\src\ui\components\index.js                | JavaScript     |          1 |          0 |          0 |          1 |
+| c:\curso de React\08-journal-app\src\ui\index.js                           | JavaScript     |          1 |          0 |          0 |          1 |
+| c:\curso de React\08-journal-app\vite.config.js                            | JavaScript     |          5 |          1 |          2 |          8 |
+| Total                                                                      |                |      1,111 |         10 |        164 |      1,285 |
++----------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

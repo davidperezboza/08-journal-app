@@ -1,0 +1,57 @@
+"filename", "language", "JavaScript JSX", "JavaScript", "CSS", "JSON", "Markdown", "XML", "HTML", "comment", "blank", "total"
+"c:\curso de React\08-journal-app\README.md", "Markdown", 0, 0, 0, 0, 6, 0, 0, 0, 5, 11
+"c:\curso de React\08-journal-app\eslint.config.js", "JavaScript", 0, 37, 0, 0, 0, 0, 0, 0, 2, 39
+"c:\curso de React\08-journal-app\index.html", "HTML", 0, 0, 0, 0, 0, 0, 23, 0, 2, 25
+"c:\curso de React\08-journal-app\package.json", "JSON", 0, 0, 0, 40, 0, 0, 0, 0, 1, 41
+"c:\curso de React\08-journal-app\public\vite.svg", "XML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 1
+"c:\curso de React\08-journal-app\src\JournalApp.jsx", "JavaScript JSX", 9, 0, 0, 0, 0, 0, 0, 0, 1, 10
+"c:\curso de React\08-journal-app\src\auth\index.js", "JavaScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 2
+"c:\curso de React\08-journal-app\src\auth\layout\AuthLayout.jsx", "JavaScript JSX", 26, 0, 0, 0, 0, 0, 0, 0, 2, 28
+"c:\curso de React\08-journal-app\src\auth\layout\index.js", "JavaScript", 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\curso de React\08-journal-app\src\auth\pages\LoginPage.jsx", "JavaScript JSX", 85, 0, 0, 0, 0, 0, 0, 0, 8, 93
+"c:\curso de React\08-journal-app\src\auth\pages\RegisterPage.jsx", "JavaScript JSX", 101, 0, 0, 0, 0, 0, 0, 0, 9, 110
+"c:\curso de React\08-journal-app\src\auth\pages\index.js", "JavaScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 2
+"c:\curso de React\08-journal-app\src\auth\routes\AuthRoutes.jsx", "JavaScript JSX", 11, 0, 0, 0, 0, 0, 0, 0, 2, 13
+"c:\curso de React\08-journal-app\src\auth\routes\index.js", "JavaScript", 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\curso de React\08-journal-app\src\firebase\config.js", "JavaScript", 0, 14, 0, 0, 0, 0, 0, 5, 2, 21
+"c:\curso de React\08-journal-app\src\firebase\index.js", "JavaScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 2
+"c:\curso de React\08-journal-app\src\firebase\providers.js", "JavaScript", 0, 63, 0, 0, 0, 0, 0, 3, 6, 72
+"c:\curso de React\08-journal-app\src\helpers\index.js", "JavaScript", 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\curso de React\08-journal-app\src\helpers\loadNotes.js", "JavaScript", 0, 12, 0, 0, 0, 0, 0, 0, 4, 16
+"c:\curso de React\08-journal-app\src\hooks\index.js", "JavaScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 2
+"c:\curso de React\08-journal-app\src\hooks\useCheckAuth.js", "JavaScript", 0, 20, 0, 0, 0, 0, 0, 0, 6, 26
+"c:\curso de React\08-journal-app\src\hooks\useForm.js", "JavaScript", 0, 43, 0, 0, 0, 0, 0, 0, 12, 55
+"c:\curso de React\08-journal-app\src\journal\components\ImageGallery.jsx", "JavaScript JSX", 67, 0, 0, 0, 0, 0, 0, 0, 4, 71
+"c:\curso de React\08-journal-app\src\journal\components\NavBar.jsx", "JavaScript JSX", 38, 0, 0, 0, 0, 0, 0, 0, 4, 42
+"c:\curso de React\08-journal-app\src\journal\components\SideBar.jsx", "JavaScript JSX", 36, 0, 0, 0, 0, 0, 0, 0, 6, 42
+"c:\curso de React\08-journal-app\src\journal\components\SideBarItem.jsx", "JavaScript JSX", 29, 0, 0, 0, 0, 0, 0, 0, 7, 36
+"c:\curso de React\08-journal-app\src\journal\components\index.js", "JavaScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 4
+"c:\curso de React\08-journal-app\src\journal\index.js", "JavaScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 5
+"c:\curso de React\08-journal-app\src\journal\layout\JournalLayout.jsx", "JavaScript JSX", 18, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\curso de React\08-journal-app\src\journal\layout\index.js", "JavaScript", 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\curso de React\08-journal-app\src\journal\pages\JournalPage.jsx", "JavaScript JSX", 33, 0, 0, 0, 0, 0, 0, 0, 4, 37
+"c:\curso de React\08-journal-app\src\journal\pages\index.js", "JavaScript", 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\curso de React\08-journal-app\src\journal\routes\JournalRoutes.jsx", "JavaScript JSX", 10, 0, 0, 0, 0, 0, 0, 0, 2, 12
+"c:\curso de React\08-journal-app\src\journal\routes\index.js", "JavaScript", 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\curso de React\08-journal-app\src\journal\views\NoteView.jsx", "JavaScript JSX", 75, 0, 0, 0, 0, 0, 0, 0, 14, 89
+"c:\curso de React\08-journal-app\src\journal\views\NothingSelectedView.jsx", "JavaScript JSX", 21, 0, 0, 0, 0, 0, 0, 0, 3, 24
+"c:\curso de React\08-journal-app\src\journal\views\index.js", "JavaScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 2
+"c:\curso de React\08-journal-app\src\main.jsx", "JavaScript JSX", 16, 0, 0, 0, 0, 0, 0, 0, 2, 18
+"c:\curso de React\08-journal-app\src\router\AppRouter.jsx", "JavaScript JSX", 21, 0, 0, 0, 0, 0, 0, 0, 7, 28
+"c:\curso de React\08-journal-app\src\store\auth\authSlice.js", "JavaScript", 0, 34, 0, 0, 0, 0, 0, 0, 4, 38
+"c:\curso de React\08-journal-app\src\store\auth\index.js", "JavaScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 2
+"c:\curso de React\08-journal-app\src\store\auth\thunks.js", "JavaScript", 0, 37, 0, 0, 0, 0, 0, 0, 9, 46
+"c:\curso de React\08-journal-app\src\store\index.js", "JavaScript", 0, 3, 0, 0, 0, 0, 0, 0, 0, 3
+"c:\curso de React\08-journal-app\src\store\journal\index.js", "JavaScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 2
+"c:\curso de React\08-journal-app\src\store\journal\journalSlice.js", "JavaScript", 0, 48, 0, 0, 0, 0, 0, 0, 10, 58
+"c:\curso de React\08-journal-app\src\store\journal\journalThunks.js", "JavaScript", 0, 40, 0, 0, 0, 0, 0, 0, 13, 53
+"c:\curso de React\08-journal-app\src\store\store.js", "JavaScript", 0, 9, 0, 0, 0, 0, 0, 0, 1, 10
+"c:\curso de React\08-journal-app\src\styles.css", "CSS", 0, 0, 3, 0, 0, 0, 0, 0, 0, 3
+"c:\curso de React\08-journal-app\src\theme\AppTheme.jsx", "JavaScript JSX", 11, 0, 0, 0, 0, 0, 0, 1, 2, 14
+"c:\curso de React\08-journal-app\src\theme\index.js", "JavaScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 2
+"c:\curso de React\08-journal-app\src\theme\purpleTheme.js", "JavaScript", 0, 15, 0, 0, 0, 0, 0, 0, 1, 16
+"c:\curso de React\08-journal-app\src\ui\components\CheckingAuth.jsx", "JavaScript JSX", 18, 0, 0, 0, 0, 0, 0, 0, 2, 20
+"c:\curso de React\08-journal-app\src\ui\components\index.js", "JavaScript", 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\curso de React\08-journal-app\src\ui\index.js", "JavaScript", 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\curso de React\08-journal-app\vite.config.js", "JavaScript", 0, 5, 0, 0, 0, 0, 0, 1, 2, 8
+"Total", "-", 625, 413, 3, 40, 6, 1, 23, 10, 164, 1285
