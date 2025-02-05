@@ -38,7 +38,6 @@ export const NoteView = () => {
 
     const onFileInputChange = (event) => {
         if (event.target.files.length === 0) return;
-        console.log('subiendo archivos');
         dispatch(startUploadingFiles(event.target.files))
     };
 
@@ -102,7 +101,7 @@ export const NoteView = () => {
                     onChange={onInputChange}
                 />
 
-                <ImageGallery />
+                <ImageGallery images={note.imageUrls}/>
             </Grid>
         </Grid>
     );
