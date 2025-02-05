@@ -7,7 +7,7 @@ import 'sweetalert2/dist/sweetalert2.css';
 
 import { ImageGallery } from '../components';
 import { useForm } from '../../hooks/useForm';
-import { setActiveNote, startSaveNote } from '../../store';
+import { setActiveNote, startSaveNote, startUploadingFiles } from '../../store';
 
 
 export const NoteView = () => {
@@ -39,7 +39,7 @@ export const NoteView = () => {
     const onFileInputChange = (event) => {
         if (event.target.files.length === 0) return;
         console.log('subiendo archivos');
-        //dispatch(startUploadingFiles(target.files))
+        dispatch(startUploadingFiles(event.target.files))
     };
 
     return (
@@ -48,8 +48,7 @@ export const NoteView = () => {
             direction='row' 
             justifyContent='space-between' 
             alignItems='center' 
-            sx={{mb: 1}}
-            disabled={isSaving}>
+            sx={{mb: 1}}>
             <Grid item>
                 <Typography fontSize={39} fontWeight='light'>{dateString}</Typography>
             </Grid>
@@ -69,6 +68,7 @@ export const NoteView = () => {
                     <UploadOutlined />
                 </IconButton>
                 <Button onClick={onSaveNote}
+                    disabled={isSaving}
                     color='primary' 
                     sx={{padding: 2}}>
                     <SaveOutlined sx={{fontSize: 30, mr: 1}}/>
